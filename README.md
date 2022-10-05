@@ -21,7 +21,7 @@ What is the total amount of debt that is owed by the countries listed in the dat
 Which country owes the maximum amount of debt and what does that amount look like?
 What is the average amount of debt owed by countries across different debt indicators?
 
-## DATA PREPARATION AND PROCESSING
+## THE DATA
 The dataset consists of 1 CSV file; with 2,358 rows and 5 coulumns each representing country, country code, indicator name, indicator code and debt.  
 
 
