@@ -8,7 +8,7 @@ ADEPEJU SHITTU
 
 
 ## INTRODUCTION 
-Just like humans take debts to manage necessities. countries also take debt to manage their economies.
+Just like humans take debts to manage necessities, countries also take debt to manage their economies.
 The World Bank provides debt to countries for them to meet needs such as providing infrastructure for citizens to live comfortably.
 This project analyzes international debt data collected by The World Bank. 
 
@@ -97,13 +97,9 @@ Next we can find the most common indicator in which the countries owe their debt
 ![image](https://user-images.githubusercontent.com/97131888/194089254-86e704e3-bdc1-4bcc-b516-e0c926a75ab2.png)
 ![image](https://user-images.githubusercontent.com/97131888/194089366-7a2641d6-7032-4f40-a131-d59c1c015ed7.png)
 
-## CONCLUSION AND RECOMMENDATIONS
+## CONCLUSION
 There are a total of six debt indicators in which all the countries listed in the dataset have taken debt. The indicator DT.AMT.DLXF.CD is also shown in the list. This gives a clue that all these countries are suffering from a common economic issue. 
 
-We can find out the maximum amount of debt that each country has, to identify the other plausible economic issues a country might be going through.
-
-To do this, we select the country_name and apply an aggregate function to take the maximum of debt aliasing the aggregate column as maximum_debt.
-Then Group the results by country_name and Order by maximum_debt in descending order, limiting the output to 10 rows.
 
 ![image](https://user-images.githubusercontent.com/97131888/194091517-b0f47459-5183-4c6c-b477-5e28e8c4c411.png)
 ![image](https://user-images.githubusercontent.com/97131888/194092390-7ccb6115-832b-4010-9238-0266c5f9b262.png)
